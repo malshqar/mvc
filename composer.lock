@@ -1,0 +1,42 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "02d2b5006c147dd5ab925158fe47d604",
+    "packages": [
+        {
+            "name": "elframework/framework",
+            "version": "1.0",
+            "dist": {
+                "type": "path",
+                "url": "elframework",
+                "reference": "fb65be7b3f2a239e368f5b3c62d485540b86f537"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "framework\\": "framework/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.1"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "elframework/framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "framework\\": "framework/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "version": "1.0"
+}

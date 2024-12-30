@@ -1,0 +1,30 @@
+{
+    "packages": [
+        {
+            "name": "elframework/framework",
+            "version": "1.0",
+            "version_normalized": "1.0.0.0",
+            "dist": {
+                "type": "path",
+                "url": "elframework",
+                "reference": "fb65be7b3f2a239e368f5b3c62d485540b86f537"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "framework\\": "framework/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "transport-options": {
+                "relative": true
+            },
+            "install-path": "../elframework/framework"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
